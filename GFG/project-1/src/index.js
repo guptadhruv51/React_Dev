@@ -7,6 +7,7 @@ import Signup from './Signup';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Login from './Login';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Products from './Products';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +17,7 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/products" element={<Products/>}></Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
