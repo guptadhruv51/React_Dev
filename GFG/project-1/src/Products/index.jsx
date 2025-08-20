@@ -26,6 +26,7 @@ const Products=()=>
 return (
   <Container>
       <Row>
+        
   {products.map(product=> <ProductCard product={product} key={product.id}/>)}
 
   </Row>
